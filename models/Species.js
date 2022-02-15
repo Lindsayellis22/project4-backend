@@ -11,7 +11,7 @@ const PetsSchema = new Schema(
             type: String,
             required: true
         }, 
-        renderSpecies: { type: Schema.Types.ObjectId, ref: 'Species'}
+        species_id: { type: Schema.Types.ObjectId, ref: 'Species'}
     },
 );
 
