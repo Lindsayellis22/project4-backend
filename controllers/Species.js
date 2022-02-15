@@ -13,7 +13,6 @@ router.get('/', async (req, res, next) => {
 	}
 });
 
-
 router.get('/:id', async (req, res, next) => {
 	try {
 		const species = await Species.findById(req.params.id);
@@ -36,18 +35,7 @@ router.post('/', async (req, res, next) => {
 	}
 });
 
-// router.delete('/:id', async (req, res, next) => {
-// 	try {
-// 		const deletedSpecies = await Species.findByIdAndDelete(req.params.id);
-// 		if (deletedSpecies) {
-// 			res.status(204).json(deletedSpecies);
-// 		} else {
-// 			res.sendStatus(404);
-// 		}
-// 	} catch (error) {
-// 		next(error);
-// 	}
-// });
+
 
 
 module.exports = router;
