@@ -1,20 +1,6 @@
 const mongoose = require('../connection');
 const Schema = mongoose.Schema;
 
-const PetsSchema = new Schema(
-    {
-        name: {
-            type: String,
-            required: true,
-        },
-        color: {
-            type: String,
-            required: true
-        }, 
-        species_id: { type: Schema.Types.ObjectId, ref: 'Species'}
-    },
-);
-
 const SpeciesSchema = new Schema(
     {
         defaultColor: String,
@@ -25,7 +11,6 @@ const SpeciesSchema = new Schema(
     },
 );
 
-const Pets = mongoose.model("Pets", PetsSchema);
 const Species = mongoose.model("Species", SpeciesSchema);
 
-module.exports = Pets, Species;
+module.exports = Species;

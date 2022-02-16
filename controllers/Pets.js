@@ -1,5 +1,5 @@
 const express = require('express');
-const Pets = require('/Users/lindsayellis/SEI/projects/project4-backend/models/Species.js');
+const Pets = require('/Users/lindsayellis/SEI/projects/project4-backend/models/ Pets.js');
 const router = express.Router();
 
 router.get('/', async (req, res, next) => {
