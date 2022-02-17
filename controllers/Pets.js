@@ -1,5 +1,5 @@
 const express = require('express');
-const Pets = require('/Users/lindsayellis/SEI/projects/project4-backend/models/ Pets.js');
+const Pets = require('/Users/lindsayellis/SEI/projects/project4-backend/models/Pets.js');
 const router = express.Router();
 
 router.get('/', async (req, res, next) => {
@@ -10,7 +10,6 @@ router.get('/', async (req, res, next) => {
 		next(error);
 	}
 });
-
 
 router.get('/:id', async (req, res, next) => {
 	try {
@@ -46,7 +45,5 @@ router.delete('/:id', async (req, res, next) => {
 		next(error);
 	}
 });
-
-
 
 module.exports = router;

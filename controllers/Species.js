@@ -2,8 +2,6 @@ const express = require('express');
 const Species = require('/Users/lindsayellis/SEI/projects/project4-backend/models/Species.js');
 const router = express.Router();
 
-
-
 router.get('/', async (req, res, next) => {
 	try {
 		const species = await Species.find({});
@@ -34,8 +32,5 @@ router.post('/', async (req, res, next) => {
 		next(error);
 	}
 });
-
-
-
 
 module.exports = router;

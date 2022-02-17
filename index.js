@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
 });
 
 // Controllers
-// Forward all requests to localhost:3111/icecreams to the ice cream controller
+// Forward all requests to localhost:3111/pets to the pets controller
 app.use('/species', SpeciesController);
 app.use('/pets', PetsController);
 
