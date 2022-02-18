@@ -1,5 +1,27 @@
 {
-
+  "name": "project3-backend",
+  "version": "1.0.0",
+  "engines": {
+    "node": "16.13.0x"
+  },
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lindsayellis22/project4-backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lindsayellis22/project4-backend/issues"
+  },
+  "homepage": "https://github.com/Lindsayellis22/project4-backend#readme",
   "dependencies": {
 
     "cors": "^2.8.5",
@@ -23,10 +45,8 @@
     "typescript": "^4.5.5",
     "type": "module"
 
-  },
-  "scripts": {
-    "start": "node index.js"
-}
+  }
+
 
 }
 
