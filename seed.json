@@ -1,30 +1,30 @@
 [
-    {
+  {
     "defaultColor": "Thistle",
     "likes": "Popping Bubblewrap, Michael Caine, Cherry Danish",
     "dislikes": "Cold Weather, Harsh language",
     "temperament": "Fussy, Hypochondriac, Sentimental",
     "speciesName": "Squiggle"
-},
-{
+  },
+  {
     "defaultColor": "Tomato",
     "likes": "Astronomy, Flower arranging, The Shining",
     "dislikes": "The word 'guestimate', Insects",
     "temperament": "Bossy, Silly, Affectionate",
     "speciesName": "Radclyf"
-},
-{
+  },
+  {
     "defaultColor": "Transparent",
     "likes": "The sea, Parchment, Ink Quills",
     "dislikes": "Ravens, Writers Block",
     "temperament": "Meloncholy, Brooding, Poetic",
     "speciesName": "Edgar Allen Poe"
-},
-{
+  },
+  {
     "defaultColor": "Aqua",
     "likes": "Autumn days, Weezer, Historical novels",
     "dislikes": "Volcanoes, inappropriate laugh tracks",
     "temperament": "Foppish, Sarcastic, Secretly kind",
     "speciesName": "Dustsprite"
-}
+  }
 ]
